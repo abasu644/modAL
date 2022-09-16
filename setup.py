@@ -11,4 +11,5 @@ setup(
     packages=['modAL', 'modAL.models', 'modAL.utils'],
     classifiers=['Development Status :: 4 - Beta'],
     install_requires=['numpy>=1.13', 'scikit-learn>=0.18', 'scipy>=0.18', 'pandas>=1.1.0'],
+    python_requires='>=3.7',
 )
